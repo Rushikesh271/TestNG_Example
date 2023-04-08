@@ -40,29 +40,6 @@ public class TestExample1 {
         AssertJUnit.assertEquals(driver.getTitle(), "Google");
     }
     
-    public void navigateToAUrl2() {
-        // navigate to the web site
-        driver.get("https://www.facebook.com/");
-        // Validate page title
-        AssertJUnit.assertEquals(driver.getTitle(), "Facebook-log in or sign up");
-    }
-    
-    public void navigateToAUrl3() {
-        // navigate to the web site
-        driver.get("https://www.naukri.com");
-        System.out.println("Naukri Page");
-        // Validate page title
-        //Assert.assertEquals(driver.getTitle(), "Google");
-    }
-    
-    @Test
-    public void StringCheck(String m) {
-        // navigate to the web site
-        
-        System.out.println(m);
-        // Validate page title
-        //Assert.assertEquals(driver.getTitle(), "Google");
-    }
     @AfterMethod
     public void afterMethod() {
 
